@@ -1,0 +1,138 @@
+.container {
+  background-color: #e6e7ff;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo do container */
+}
+
+.scrollView {
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4b0082;
+  margin-top: 10px;
+}
+
+.aviso {
+  font-size: 15px;
+  color: #4b0082;
+}
+
+.form {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px; /* Define uma largura máxima para o formulário */
+  width: 100%; /* Garante que o formulário ocupe a largura completa do container */
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.inputRowCentered {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%; /* Mantém as larguras dentro do limite do formulário */
+}
+
+.inputGroupWide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  
+}
+
+.label {
+  font-size: 14px;
+  color: #4d0099;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.input {
+  background-color: #4b0082;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 14px;
+  color: white;
+  width: 100%; /* Garante que o input ocupe toda a largura da coluna */
+  max-width: 500px; /* Limita a largura máxima dos inputs */
+  box-sizing: border-box;
+  margin: 0 auto; /* Centraliza os inputs */
+  justify-content: space-between;
+}
+
+.inputEstadoCidade, .inputsCepPontoR, .inputsNumComple{
+  background-color: #4b0082;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  max-width: 195px; /* Define uma largura menor para inputs de Estado/Cidade e Rua/Bairro */
+  box-sizing: border-box;
+
+}
+
+.button {
+  background-color: #4b0082;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0;
+  width: 30%;
+  align-self: flex-end;
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  max-width: 1200px; /* Define uma largura máxima */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 0 auto 20px;
+}
+
+.step{
+  font-size: 14px;
+  color: #4b0082;
+}
+
+.step1 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4b0082;
+}
